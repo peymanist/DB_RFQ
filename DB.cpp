@@ -8,10 +8,8 @@ using json = nlohmann::json;
 int main() {
     // OpenAI API key
     std::string apiKey;
-
-    //std::string apiKey;
-    //std::cout << "Enter your OpenAI API key: ";
-    //std::getline(std::cin, apiKey);
+    std::cout << "Enter your OpenAI API key: ";
+    std::getline(std::cin, apiKey);
 
     if (apiKey.empty()) {
         std::cerr << "API key cannot be empty.\n";
