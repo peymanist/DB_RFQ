@@ -1,0 +1,40 @@
+1. Plain vanilla USD swap
+
+“We want to pay fixed on a 10-year USD interest rate swap versus 3M SOFR, notional 50 million, start date Jan 2026.”
+
+🧩 2. Receive fixed EUR swap
+
+“Can you quote receive fixed, 5-year EUR swap against 6M Euribor, 25 million notional, starting March 2025?”
+
+🧩 3. GBP forward-starting swap
+
+“Looking for a 15-year GBP swap starting in one year, pay fixed, 80 million notional.”
+
+🧩 4. JPY swap
+
+“Need a 7-year JPY swap, receive fixed 1.2%, notional 10 billion yen, starting June 2025.”
+
+🧩 5. USD amortizing swap
+
+“Price a USD amortizing swap, 20 years, pay fixed 3.5%, receive float 3M SOFR, initial notional 100 million.”
+
+🌀 Swaption RFQs
+🧩 6. USD payer swaption
+
+“Quote a 3Y x 10Y USD payer swaption, strike 3.25%, notional 100 million.”
+
+🧩 7. EUR receiver swaption
+
+“We’re looking for a 2Y into 5Y receiver swaption in EUR, notional 60 million, strike 2.10%.”
+
+🧩 8. GBP ATM swaption
+
+“Give me an ATM 1Y x 10Y GBP payer swaption, notional 40 million.”
+
+🧩 9. USD 6M expiry into 2Y underlying
+
+“Need price for 6-month into 2-year USD receiver swaption, notional 25 million, strike 4%.”
+
+🧩 10. JPY digital swaption
+
+“Quote a 1Y x 5Y JPY digital payer swaption, notional 5 billion yen, strike 0.25%.”
