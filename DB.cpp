@@ -7,7 +7,7 @@ using json = nlohmann::json;
 
 int main() {
     // OpenAI API key
-    std::string apiKey = "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"; // replace with your key
+    std::string apiKey;
 
     //std::string apiKey;
     //std::cout << "Enter your OpenAI API key: ";
