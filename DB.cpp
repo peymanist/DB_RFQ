@@ -35,10 +35,16 @@ int main() {
             }
 
             std::cout << "\nProcessing...\n";
-            auto structured = processor.process(rfqText);
-
-            std::cout << "\nStructured Output:\n";
-            std::cout << structured.dump(4) << std::endl;
+            auto raw = processor.process(rfqText);
+            if (raw.has_value()) {
+                auto structured = json::parse(raw.value());
+                std::cout << "\nStructured Output:\n";
+                std::cout << structured.dump(4) << std::endl;
+            }
+            else {
+                std::cout << "An Error has occured" << std::endl;
+            }
+           
         }
     }
     catch (const std::exception& e) {

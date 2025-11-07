@@ -4,7 +4,7 @@
 class RFQProcessor {
 public:
     RFQProcessor(OpenAIClient& client);
-    nlohmann::json process(const std::string& rfqText);
+    std::optional<std::string>  process(const std::string& rfqText);
 
 private:
     OpenAIClient& api;

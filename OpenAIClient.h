@@ -8,7 +8,7 @@ class OpenAIClient {
 public:
     OpenAIClient(const std::string& apiKey);
 
-    nlohmann::json chatCompletion(const nlohmann::json& messages);
+    std::string chatCompletion(const nlohmann::json& messages);
 
 private:
     httplib::SSLClient cli;
